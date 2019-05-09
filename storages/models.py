@@ -49,4 +49,5 @@ class Invoice(db.Model):
     ammount_due = db.Column(db.Integer)
     paid = db.Column(db.Boolean, nullable=False, default=False)
 
-# 
+#
+##
