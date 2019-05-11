@@ -17,7 +17,7 @@ from flask_migrate import Migrate, MigrateCommand
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = ''
+app.config['SECRET_KEY'] = 'a'
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
